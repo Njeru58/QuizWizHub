@@ -1,0 +1,4 @@
+php -S localhost:8000
+
+then  browser :
+127.0.0.1:8000 or localhost:8000

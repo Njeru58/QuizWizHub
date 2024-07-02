@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #00D666;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+button,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FCC62C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FCC62C;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+/*************************HOME*******************************/
+.nav{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: #000;
+
+}
+.right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box{
+    display: flex;
+    flex-direction: coloumn;
+    width: 70%;
+}
+
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:840px){
+    .main-box .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .top .box{
+        margin: 10px 10px;
+    }
+    .bottom{
+        margin-top: 0;
+    }
+    }
